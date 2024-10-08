@@ -2,7 +2,7 @@ def mcd(n,m):
     if n == m or m == 0:
         return n
     aux = m
-    m = n % m
+    m = n%m
     n = aux
     return mcd(n,m)
 
