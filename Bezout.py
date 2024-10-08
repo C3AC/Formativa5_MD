@@ -31,8 +31,7 @@ while flag2:
         b = int(input('Ingrese un numero entero b: '))
         flag2 = False
         x,y = bezout(a,b)
-        print(f'Los coeficientes de Bezout son: {x} y {y} respectivamente')
-        print(f'La ecuacion diofántica es: {a}*{x} + {b}*{y}')
+        print(f'Los coeficientes de Bézout de {a} y {b} son {x} y {y}, respectivamente.')
     except ValueError:
         print('Error, el valor ingresado no es un numero entero')
     
