@@ -1,9 +1,7 @@
 def mcd(n,m):
     if n == m or m == 0:
         return n
-    aux = m
-    m = n%m
-    n = aux
+    m,n=n%m,m 
     return mcd(n,m)
 
 while True:

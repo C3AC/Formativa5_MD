@@ -40,7 +40,7 @@ while check:
     except:
         print("Asegurese de escribir un número")
 if isprime(num):
-    print("El número " + str(num) + " es primo")
+    print("El número " + {num} + " es primo")
 else:
-    print('El numero ' + str(num) + ' no es primo pues lo dividen: ')
+    print('El numero ' + {num} + ' no es primo pues lo dividen: ')
     print(primedecomposition(num))
